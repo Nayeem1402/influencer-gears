@@ -1,0 +1,56 @@
+body {
+    font-family: Poppins;
+}
+
+.Influencer {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* nav bar start  */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 85px 120px;
+    
+}
+
+.manu {
+    display: flex;
+    gap: 34px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.link-page>a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+.icon {
+    width: 19px;
+    height: 19px;
+}
+
+/* small device */
+
+@media screen and (max-width : 576px) {
+    .nav-container
+    , .manu
+    {
+        text-align: center;
+        flex-direction: column;
+    } 
+}
+
+
+/* midiam device   */
+@media (min-width: 576px) and (max-width: 768px){
+    .nav-container
+    , .manu
+    {
+        text-align: center;
+        flex-direction: column;
+    } 
+}

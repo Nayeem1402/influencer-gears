@@ -6,7 +6,12 @@ body {
     font-size: 24px;
     font-weight: 700;
 }
-
+.pry-des{
+    color: rgb(217, 219, 225);
+font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+}
 /* nav bar start  */
 .nav-container {
     display: flex;
@@ -32,7 +37,23 @@ body {
     width: 19px;
     height: 19px;
 }
-
+/* footer start */ 
+.footer{
+    width:100%;
+ 
+    background: #0A0826;
+    color: white;
+    text-align: center;
+     padding:50px 0px;
+     gap: 5px;
+}
+.f-icon > img{
+     padding: 0px 20px;
+}
+.footer>h3{
+    font-size: 24px;
+font-weight: 700;
+}
 /* small device */
 
 @media screen and (max-width : 576px) {

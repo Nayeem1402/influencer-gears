@@ -1,7 +1,10 @@
 body {
     font-family: Poppins;
 }
-
+.icon {
+    width: 19px;
+    height: 19px;
+}
 .Influencer {
     font-size: 24px;
     font-weight: 700;
@@ -32,11 +35,15 @@ font-weight: 700;
     text-decoration: none;
     color: rgb(58, 58, 58);
 }
+main{}
+/* sponsor */
 
-.icon {
-    width: 19px;
-    height: 19px;
+.sponsor{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 165px;
 }
+
 /* footer start */ 
 .footer{
     width:100%;
@@ -63,6 +70,14 @@ font-weight: 700;
         text-align: center;
         flex-direction: column;
     } 
+    .sponsor{
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .sponsor > img{
+        width: 60px;
+height: 20px;
+    }
 }
 
 
@@ -74,4 +89,11 @@ font-weight: 700;
         text-align: center;
         flex-direction: column;
     } 
+    .sponsor{
+        flex-wrap: wrap;
+      gap: 30px;
+       
+    }
+    
+
 }

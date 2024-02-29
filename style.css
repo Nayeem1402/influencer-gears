@@ -90,7 +90,7 @@ body {
 .ring {
     position: absolute;
     z-index: 2;
-    width: 455px;
+    width: 440px;
     height: 455px;
 }
 
@@ -121,7 +121,7 @@ body {
 }
 
 .future-titel {
-    padding-left: 420px;
+    padding-left: 6%;
 }
 
 /* footer start */
@@ -166,22 +166,37 @@ body {
         margin-bottom: 30px;
     }
 
-    .banner-containe {
+    .future-img {
+        width: 299px;
+        height: 188px;
+    }
+
+    .banner-container {
         flex-direction: column-reverse;
         margin: 30px 20px;
         text-align: center;
-        padding: 20px;
-       
-        
+
     }
 
     .b-container {
         display: flex;
         width: 100%;
-        padding: 0px;
         justify-content: center;
 
+    }
 
+    .cam {
+
+        width: 202px;
+        height: 190px;
+
+
+    }
+
+    .ring {
+
+        width: 257px;
+        height: 257px;
     }
 
     .b-img {
@@ -232,7 +247,14 @@ body {
         justify-content: center;
 
     }
+    .sponsor {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        padding: 20px;
 
+
+    }
     .featured {
         padding: 0px;
         flex-direction: column-reverse;

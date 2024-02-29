@@ -1,5 +1,6 @@
 body {
     font-family: Poppins;
+    margin: 0px;
 }
 
 .icon {
@@ -64,11 +65,11 @@ body {
     border-radius: 41px;
     padding: 10px 24px 10px 24px;
     background: rgb(224, 44, 109);
-    width: 196px;
-    height: 44px;
     color: white;
     display: flex;
-    justify-items: center;
+    text-align: center;
+    border: none;
+
 }
 
 .b_button>img {
@@ -82,15 +83,15 @@ body {
     z-index: 3;
     bottom: -20px;
     right: -25px;
-    width: 440px;
-    height: 414px;
+    width: 430px;
+    height: 404px;
 }
 
 .ring {
     position: absolute;
     z-index: 2;
-    width: 475px;
-    height: 475px;
+    width: 455px;
+    height: 455px;
 }
 
 /* sponsor */
@@ -101,8 +102,31 @@ body {
     margin: 50px 165px;
 }
 
+.featured {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 165px;
+
+}
+
+.future {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.future-img {
+    width: 404px;
+    height: 270px;
+}
+
+.future-titel {
+    padding-left: 420px;
+}
+
 /* footer start */
 .footer {
+
     width: 100%;
 
     background: #0A0826;
@@ -129,19 +153,34 @@ body {
     .manu {
         text-align: center;
         flex-direction: column;
+
     }
 
-    .banner-container {
+    .featured {
+        padding: 0px;
+        flex-direction: column-reverse;
+    }
+
+    .future-titel {
+        padding: 0%;
+        margin-bottom: 30px;
+    }
+
+    .banner-containe {
         flex-direction: column-reverse;
         margin: 30px 20px;
         text-align: center;
-
+        padding: 20px;
+       
+        
     }
 
     .b-container {
         display: flex;
         width: 100%;
+        padding: 0px;
         justify-content: center;
+
 
     }
 
@@ -154,8 +193,13 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
+        padding: 20px;
 
 
+    }
+
+    .footer {
+        max-width: 576px;
     }
 
 }
@@ -189,12 +233,21 @@ body {
 
     }
 
-    .sponsor {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
-
+    .featured {
+        padding: 0px;
+        flex-direction: column-reverse;
     }
 
+    .future-titel {
+        padding: 0%;
+        margin-bottom: 30px;
 
-}
+        .sponsor {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+
+        }
+
+
+    }

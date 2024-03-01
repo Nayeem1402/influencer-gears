@@ -322,7 +322,10 @@ text-align: center;
 
 
     }
-
+    .products-section{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px;
+    } 
     .featured {
         padding: 0px;
         flex-direction: column-reverse;
